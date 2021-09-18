@@ -38,10 +38,29 @@ namespace ProjectEuler.Solutions
         /// <returns>A <see cref="string"/> object which represents the solution of the second problem</returns>
         public string Execute()
         {
-            //TODO: Implement algorithm
+            int result = 0;
+            int previousterm = 0;
+            int currentTerm = 1;
 
-            return "";
+            while (true)
+            {
+                int tempCurrentTerm = currentTerm;
+
+                currentTerm = AddTerms(previousterm, currentTerm);
+
+                if (currentTerm > 4000000)
+                    break;
+
+                previousterm = tempCurrentTerm;
+
+                if (currentTerm % 2 == 0)
+                    result += currentTerm;
+            }
+
+            return result.ToString();
         }
+
+        private static int AddTerms(int left, int right) => left + right;
         #endregion
     }
 }
