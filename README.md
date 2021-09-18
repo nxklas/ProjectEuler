@@ -1,3 +1,3 @@
 # ProjectEuler
 
-This project contains [ProjectEuler](https://projecteuler.net/) problem solutions
+This project contains [Project Euler](https://projecteuler.net/) problem solutions

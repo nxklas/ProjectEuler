@@ -12,7 +12,7 @@ namespace ProjectEuler.Demo
         /// </summary>
         private static void Main()
         {
-
+            Console.Out.ExecuteAllSolutions();
             Console.ReadKey();
         }
     }

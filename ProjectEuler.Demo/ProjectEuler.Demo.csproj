@@ -5,4 +5,16 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\mad_prozessors\Documents\Coding\ProjectEuler\ProjectEuler.Demo\bin\Debug\net5.0\ProjectEuler.Demo.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\mad_prozessors\Documents\Coding\ProjectEuler\ProjectEuler.Demo\bin\Debug\net5.0\ProjectEuler.Demo.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectEuler\ProjectEuler.csproj" />
+  </ItemGroup>
+
 </Project>
