@@ -27,7 +27,6 @@ namespace ProjectEuler.Solutions
         /// </summary>
         public Problem2()
         {
-
         }
         #endregion
 
@@ -59,7 +58,9 @@ namespace ProjectEuler.Solutions
 
             return result.ToString();
         }
+        #endregion
 
+        #region Private methods
         private static int AddTerms(int left, int right) => left + right;
         #endregion
     }

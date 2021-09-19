@@ -25,7 +25,6 @@ namespace ProjectEuler.Solutions
         /// </summary>
         public Problem1()
         {
-
         }
         #endregion
 

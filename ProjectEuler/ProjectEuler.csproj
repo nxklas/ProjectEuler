@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\mad_prozessors\Documents\Coding\ProjectEuler\ProjectEuler\bin\Debug\net5.0\ProjectEuler.xml</DocumentationFile>
+    <DocumentationFile>..\ProjectEuler\ProjectEuler\bin\Debug\net5.0\ProjectEuler.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\mad_prozessors\Documents\Coding\ProjectEuler\ProjectEuler\bin\Release\net5.0\ProjectEuler.xml</DocumentationFile>
+    <DocumentationFile>..\ProjectEuler\ProjectEuler\bin\Release\net5.0\ProjectEuler.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
